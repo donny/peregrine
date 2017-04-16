@@ -1,0 +1,22 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: lxml
+  version: "2.3.5"
+
+inbound_services:
+- mail
+
+handlers:
+- url: /_ah/mail/info@fiftytwo-cardinal\.appspotmail\.com
+  script: email_handler.app
+- url: /fetch
+  script: fetch.app
+- url: /notify
+  script: notify.app
+- url: /clean
+  script: clean.app
+- url: /.*
+  script: main.app
