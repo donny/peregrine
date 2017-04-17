@@ -1,4 +1,4 @@
-SENDER = 'info@fiftytwo-cardinal.appspotmail.com'
+SENDER = 'info@fiftytwo-peregrine.appspotmail.com'
 
 HELP_MESSAGE = """Dear user,
 
