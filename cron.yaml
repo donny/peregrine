@@ -1,10 +1,4 @@
 cron:
 - url: /fetch
   timezone: Australia/Melbourne
-  schedule: every 1 hours from 07:00 to 23:00
-- url: /notify
-  timezone: Australia/Melbourne
-  schedule: every 1 hours from 07:15 to 23:15
-- url: /clean
-  timezone: Australia/Melbourne
-  schedule: every day 06:30
+  schedule: every 1 hours from 10:00 to 16:00
