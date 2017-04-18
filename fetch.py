@@ -2,7 +2,6 @@ import logging
 import webapp2
 import re
 from google.appengine.api import urlfetch
-from model import Deal
 from yahoo_finance import Share
 import pygsheets
 
