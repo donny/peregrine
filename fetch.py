@@ -23,13 +23,16 @@ class Fetch(webapp2.RequestHandler):
         try:
             shares = ['^AORD', 'FXJ.AX']
             for symbol in shares:
-                price = Share(symbol).get_price()
+                share = Share(symbol)
+                s_price = share.get_price()
+                s_name = share.get_name()
                 symbol_cells = sh.find(symbol)
                 if len(symbol_cells) == 0:
-                    ws.append_table(values=[symbol, price])
+                    ws.append_table(values=[s_name, symbol, s_price])
                 else:
                     symbol_cell = symbol_cells[0]
-                    symbol_cell.neighbour('right').value = price
+                    symbol_cell.neighbour('left').value = s_name
+                    symbol_cell.neighbour('right').value = s_price
 
             self.response.write('OK')
         except:
