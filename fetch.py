@@ -21,7 +21,7 @@ class Fetch(webapp2.RequestHandler):
         ws = sh.worksheet_by_title(SHEET_WORK_NAME)
 
         try:
-            shares = ['^AORD', 'FXJ.AX']
+            shares = ['^AORD', 'FXJ.AX', 'TLS.AX', 'REA.AX', 'CBA.AX']
             for symbol in shares:
                 share = Share(symbol)
                 s_price = share.get_price()
