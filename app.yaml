@@ -6,12 +6,7 @@ libraries:
 - name: lxml
   version: "2.3.5"
 
-inbound_services:
-- mail
-
 handlers:
-- url: /_ah/mail/info@fiftytwo-peregrine\.appspotmail\.com
-  script: email_handler.app
 - url: /fetch
   script: fetch.app
 - url: /.*
