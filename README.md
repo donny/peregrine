@@ -27,4 +27,4 @@ Please note that before running or deploying this application, install the depen
 
 ### Conclusion
 
-...
+Depending on the use cases, I think a spreadsheet is a good alternative to a database. A spreadsheet offers a familiar user interface to many people. Plus with get the benefit of mobile accessibility through Google iOS / Android apps. The [yahoo-finance](https://github.com/lukaszbanasiak/yahoo-finance) library is quite easy to use. With [pygsheets](https://pygsheets.readthedocs.io/en/latest/), sometimes I encountered memory issues on GAE instances where the process exceeded the default 128 MB memory limit. It could be because the library loads up the whole spreadsheet onto memory, but I can't be sure of the exact cause.
