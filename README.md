@@ -18,7 +18,12 @@ The main user interface is through a spreadsheet document as shown below. This d
 
 ### Implementation
 
-...
+The app is implemented by one main file: [`fetch.py`](https://github.com/donny/peregrine/blob/master/fetch.py) that is invoked by a GAE cron job service every hour to retrieve share prices, process them, and save them to Google Sheets. The share prices are retrieved using a Python [library](https://github.com/lukaszbanasiak/yahoo-finance) that talks to [Yahoo! Finance](https://en.wikipedia.org/wiki/Yahoo!_Finance).
+
+Please note that before running or deploying this application, install the dependencies using
+[pip](http://pip.readthedocs.io/en/stable/):
+
+    pip install -t lib -r requirements.txt
 
 ### Conclusion
 

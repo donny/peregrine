@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fiftytwo-peregrine",
+  "private_key_id": "b07428386d021222c3afe0957ec20fa6a972faa1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC464EnaYP7Xm2N\ntBtsLUTPcLhJPhoyaW2bw33xdHtwY9jCs9SwvStwo2XoS/JkqOGFXmG641+dvD7q\nIvWlhh7mg3vZAUEIeGGOTzKfhufgBYN23gHVaQ0dj+iw8tTuRCZqMqCwH1iIKC1i\nB/sBciD0I+ISphcGHTRq5pe75062SYBP+JbsTHIufTKbT4sYPEtsfn6EneSG3vrR\n/wS0iCjaM2FXZXG+FhS5tSWZg0D/SA4p4fw7HeGrcc1GXMMVoAkVH2/nQcaEhIEZ\n2bXndSr4LprVeNded+OSxHX4PRn1b3dVIFXUBvnyG+hoGxWA+9N+LHm4w+C2Qf6O\nEE67MZ6LAgMBAAECggEAV0iiH85IQ+AgaeB3iSoc7qVP9xJfHyhwWjN+QPgwQ659\nY/mqDPpdhL87nNgsQ6MLP/56ttIYEcYHFFEIDecusrOhQ5656ZuYwKlVRcNRs4Ym\ntXa4+tipHikNNmiIZSa50yquejNxgGMmeL03l0kdkN9XGGJZP8ONOGA7gq/9kUB2\nXutu6aLZrkpBIvuIHFCeDAKKQu1pH0Q/FoXZ3NtudDiX9MlN9EpLB05e4DEc8OGK\nyXD/Osv8z5EeXcfB12zTyQ4ftsqEE0rj18Z//uovYppnPEVYMfS5AjfH6SLx/2hs\nsGUA1NCpaGQhdmii8tvTTP4MRimShGUMQjrbIvAL4QKBgQDqXIF6GmDMy63NAwpg\nIO9vNHwsDXaIbBxTh1BjjdKcC+ZvTZje5lPQ2ITHZVCdvqSGEKxk8NQrnpx4kIDU\nkoHnivruyQC+RmpreZPJPV9Dv8qFlAe6+LlJAh5KxrcTCLV4Tu8p+D0yYs/kSTyX\nO9pxh0hf2j5co2+bTT+Oga+zEwKBgQDJ/l/PRJtcawllyH7OpM1cr3BadtNPwGlj\nlxvMk32Ydf2H0RVtNVaWbLSULFpAlv/1DEjVrIsXn8bmDptExKOXWmz+NLIe2nRl\nWTcc5mF1LMHQlBP4930AshwDbfIMZnmT1KxFLwM+eP1QyDSQz87SuNykd/h1pBjG\nd9KtE4/dqQKBgD4fX0LakyY2J0/cqndow48avn9+4hivb6LEj46UHWu3y9FdJFSR\ngU4u1qN0O7ZUvo+7A7eODu+xD5D13PB8FWsm7/Uz2rqVN8hdZctGNWZkBG78GkB5\nhcPQh+8SVZz6BgBqDAN4BeDBSJIex6ze9Lx7O7gMxdMQj5j/FQXVYpl5AoGBALkg\n02zio0WLsFxB6r632qQFAwNWfotMfQrStp7D2st98HSnE205Anfxf3uCPuGNw18y\n+Bol/oETZjb50iKv2oNgVB6T62BNtXohz1pEZ7P95lClNrzrDv0xQG2AOeRVkz4D\nIDR0RxPdzcVZCJxkaVlGJqrybZxcXnyf203XbPapAoGBAN/ZetisPWHkJnppwjCm\nl1QYMkGSR+AhVsMW7Gpf3YRo6qqIi6rlE75cbTVdcpNKCrnS0cr1EI9sbK4tUT6l\nPi68oYFJt4QtCXx5jMTEwF+WMylbs6/0EdkwaO4hPmYIaVX4JF+7U0OzuRdZa3uF\nSgEW2D5uWgqwMU/vbe+VsGkV\n-----END PRIVATE KEY-----\n",
+  "client_email": "fiftytwo-peregrine@appspot.gserviceaccount.com",
+  "client_id": "117646360181481551688",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fiftytwo-peregrine%40appspot.gserviceaccount.com"
+}
